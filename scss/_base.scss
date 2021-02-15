@@ -4,15 +4,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 body {
     font: 14px/24px 'PT Sans Narrow', Arial, Tahoma, sans-serif;
     text-transform: uppercase;
-    background: url("/images/dest/main_bg.jpg") no-repeat 50% 0;
+    background: url("../images/dest/main_bg.jpg") no-repeat 50% 0;
     background-size: cover;
     font-weight: 700;
 }
+
 ul {
     padding: 0;
     margin: 0;
@@ -24,6 +24,9 @@ img {
 a {
     color: #000;
     text-decoration: none;
+}
+input, button {
+    outline: none;
 }
 .container {
     max-width: 960px;
@@ -43,4 +46,12 @@ a {
         @extend .col;
         width: 50%;
     }
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
