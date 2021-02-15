@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="css/app.min.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
-
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
 </head>
 
@@ -20,61 +20,129 @@
 			<div class="header-container__navigation">
 				<div class="header-container__navigationLeft">
 					<label><a class="header-container__link link1" href="/">главная</a></label>
-					<a class="header-container__link" href="/">информация</a>
-					<a class="header-container__link" href="/">новости</a>
-					<a class="header-container__link" href="/">прайс-лист</a>
-					<a class="header-container__link" href="/">магазин</a>
-					<a class="header-container__link" href="/">контакты</a>
+					<label><a class="header-container__link2" href="/">информация</a></label>
+					<label><a class="header-container__link3" href="/">новости</a></label>
+					<label><a class="header-container__link4" href="/">прайс-лист</a></label>
+					<label><a class="header-container__link5" href="/">магазин</a></label>
+					<label><a class="header-container__link6" href="/">контакты</a></label>
 				</div>
 				<div class="header-container__navigationRight">
-					<label><a class="header-container__link" href="/"><img class="header-container__img"
+					<label><a class="header-container__link7" href="/"><img class="header-container__img"
 								src="./images/dest/login.png" alt="">вход</a></label>
 				</div>
 			</div>
 			<div class="header-container__logobox">
 				<img src="./images/dest/BORODINSKI-Logo.png" alt="logo" class="header-container__">
 			</div>
-			<div class="header-container__rowbox">
+			<div class="header-container__rows">
 				<div class="header-container__row33">
 					<div class="header-container__titleBox">
-					<h4 class="title--30white">Быстро</h4>
+						<h4 class="title--30white">Быстро</h4>
+					</div>
+					<p class="header-container__text">МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ
+						—
+						СЧАСТЛИВЫЙ ОБЛАДЕТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
 				</div>
-					<p class="header-container__text">МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДЕТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
+				<div class="header-container__row33">
+					<div class="header-container__titleBox">
+						<h4 class="title--30white">Круто</h4>
+					</div>
+					<p class="header-container__text">ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.
+						МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО!
+						ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.
+					</p>
+				</div>
+				<div class="header-container__row33">
+					<div class="header-container__titleBox">
+						<h4 class="title--30white">Дорого</h4>
+					</div>
+					<p class="header-container__text">НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО.
+						К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?</p>
 				</div>
 
 			</div>
 		</div>
 
 
-			<!-- <div class="infoBlock">
-				<div class="infoBlock__container">
-					<div class="row">
-						<div class="col--50">
-							<h4 class="title--30">Новости</h4>
-							<div class="infoBlock__box">
-								<p class="infoblock__text">
-									НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ
-									СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ
-								</p>
-								<span class="infoBlock__date">25 сентября</span>
-							</div>
-							<div class="infoBlock__box">
-								<p class="infoblock__text">
-									В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДЕТЕЛЬ МНОЖЕТСВА ТИТУЛОВ И
-									НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ
-								</p>
-								<span class="infoBlock__date">19 сентября</span>
-							</div>
-							<a href="news.html" class="btn__large">Новости</a>
+		<div class="infoBlock">
+			<div class="infoBlock__container">
+				<div class="row">
+					<div class="col--50">
+						<h4 class="title--30">Новости</h4>
+						<div class="infoBlock__box">
+							<p class="infoblock__text">
+								НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ
+								СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ
+							</p>
+							<span class="infoBlock__date">25 сентября</span>
 						</div>
-						<div class="col--50"></div>
+						<div class="infoBlock__box">
+							<p class="infoblock__text">
+								В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДЕТЕЛЬ МНОЖЕТСВА ТИТУЛОВ И
+								НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ
+							</p>
+							<span class="infoBlock__date">19 сентября</span>
+						</div>
+						<a href="news.html" class="btn--large">Новости</a>
 					</div>
-					<img class="infoBlock__divider" src="./images/dest/row.png" alt=""></img>
+					<div class="col--50">
+						<div class="infoblock__title">
+							<h4 class="title--30">Фотогалерея</h4>
+						</div>
+						<!-- <div class="infoblock__slider">
+							<img src="./images/dest/Slider1.jpg" alt="slider1">
+						</div> -->
+
+						<!-- Slider main container -->
+						<div class="swiper-container">
+							<!-- Additional required wrapper -->
+							<div class="swiper-wrapper">
+								<!-- Slides -->
+								<div class="swiper-slide"><img src="./images/dest/Slider1.jpg" alt="slider1"></div>
+								<div class="swiper-slide"><img src="./images/dest/Slider2.jpg" alt="slider1"></div>
+								<div class="swiper-slide"><img src="./images/dest/Slider3.jpg" alt="slider1"></div>
+							</div>
+
+							<div class="navBtn">
+								<div class="btn--large swiper-button-prev">Назад</div>
+								<div class="btn--large swiper-button-next">Вперёд</div>
+							</div>
+
+						</div>
+					</div>
 				</div>
-			</div> -->
+				<img class="infoBlock__divider" src="./images/dest/row.png" alt=""></img>
+			</div>
+		</div>
+		<div class="modal">
+			<div class="modal__wrapper">
+				<div class="modal__window">
+					<h5 class="title--30">Личный кабинет</h5>
+					<p>введите, пожалуйста, свой логин и пароль
+						Если вы забыли пароль
+					</p>
+					<form>
+						<input type="text" name="login" placeholder="Логин" class="input--login">
+						<input type="password" name="password" placeholder="Пароль" class="input--password">
+						<div class="form__row">
+							<div class="form__column">
+								<input type="checkbox" id="remember" value="remember">
+								<label for="remember">Запомните меня</label>
+							</div>
+							<div class="form__column">
+								<a href="#">Я забыл пароль!</a>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<script src="./js/app.min.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="./js/app.js"></script>
+
 </body>
 
 </html>

@@ -1,45 +1,78 @@
 .infoBlock {
     position: relative;
+    top     : 533px;
 
-    &__container{
+    &__container {
         background: $light_bg;
-        max-width: 940px;
-        margin: 0 auto;
-        padding: 52px 80px 54px;
+        max-width : 940px;
+        margin    : 0 auto;
+        padding   : 52px 80px 54px;
     }
 
     .col--50 {
 
-        &:first-child {
-            margin-right: 90px;
-        }
+        // &:first-child {
+        //     margin-right: 90px;
+        // }
 
         &:last-child {
             margin-left: 90px;
         }
+    .navBtn {
+        display: flex;
+        justify-content: center;
+
+       .btn--large {
+           margin: 44px 10px 0;
+       }
+    }
     }
 
     &__divider {
-        position: absolute;
-        left: 50%;
-        top: 50%;
+        position : absolute;
+        left     : 50%;
+        top      : 50%;
         transform: translate(-50%, -50%);
-        height: 64%;
+        height   : 64%;
     }
 
     .title--30 {
-        margin: 0 0 30px;
+        margin    : 0 0 30px;
+        text-align: center;
     }
 
     &__date {
-        font-family: Georgia, sans-serif;
-        font-style: italic;
-        font-size: 14px;
-        line-height: 1;
-        font-weight: 400;
+        font-family   : Georgia, sans-serif;
+        font-style    : italic;
+        font-size     : 14px;
+        line-height   : 1;
+        font-weight   : 400;
         text-transform: lowercase;
     }
+
     &__box {
         margin-bottom: 35px;
+    }
+
+    .swiper-container {
+        text-align: center;
+    }
+    .swiper-button-next, .swiper-button-prev {
+    position: static;
+    content: "";
+    color: $white;
+
+    &:hover {
+        color: $black;
+    }
+    }
+    .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after {
+        content: '';
+    }
+    .swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
+        content: '';
+    }
+    .swiper-slide img {
+        border: 7px solid $white;
     }
 }
