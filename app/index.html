@@ -27,7 +27,7 @@
 					<label><a class="header-container__link6" href="/">контакты</a></label>
 				</div>
 				<div class="header-container__navigationRight">
-					<label><a class="header-container__link7" href="/"><img class="header-container__img"
+					<label><a class="header-container__login js-login" href="/"><img class="header-container__img"
 								src="./images/dest/login.png" alt="">вход</a></label>
 				</div>
 			</div>
@@ -62,6 +62,9 @@
 
 			</div>
 		</div>
+		<span class="menu-button">
+			<span></span>
+		</span>
 
 
 		<div class="infoBlock">
@@ -83,7 +86,7 @@
 							</p>
 							<span class="infoBlock__date">19 сентября</span>
 						</div>
-						<a href="news.html" class="btn--large">Новости</a>
+						<a href="news.html" class="btn--large">Все новости</a>
 					</div>
 					<div class="col--50">
 						<div class="infoblock__title">
@@ -114,7 +117,7 @@
 				<img class="infoBlock__divider" src="./images/dest/row.png" alt=""></img>
 			</div>
 		</div>
-		<div class="modal">
+		<div class="modal modal--login">
 			<div class="modal__wrapper">
 				<div class="modal__window">
 					<h5 class="title--30">Личный кабинет</h5>
@@ -133,7 +136,10 @@
 								<a href="#">Я забыл пароль!</a>
 							</div>
 						</div>
+						<input class="btn--fullWidth" type="submit" value="Войти" name="login">
 					</form>
+					<span class="modal__close"></span>
+
 				</div>
 			</div>
 		</div>

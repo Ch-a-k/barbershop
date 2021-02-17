@@ -23,10 +23,11 @@
 
     &__window {
         background: $light_bg;
+        position: relative;
         padding: 52px 80px 54px;
         max-width: 90%;
         max-height: 90%;
-        overflow-y: auto;
+        // overflow-y: auto;
 
         .form__column{
             &:last-child{
@@ -34,5 +35,15 @@
                 text-decoration: underline;
             }
         }
+    }
+    &__close {
+        width: 21px;
+        height: 21px;
+        position: absolute;
+        left: calc(100% + 50px);
+        top: 55px;
+        background: url(../images/dest/close.png) no-repeat 50%;
+        background-size: 100% 100%;
+        cursor: pointer;
     }
 }

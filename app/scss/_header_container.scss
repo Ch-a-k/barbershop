@@ -1,5 +1,6 @@
 .header-container {
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     height: 72px;
     margin: auto;
     background: #000;
@@ -21,7 +22,8 @@
         margin: 0 auto;
         justify-content: space-between;
         align-items: center;
-        width: 940px;
+        width: 100%;
+        max-width: 940px;
         height: inherit;
 
         a{
